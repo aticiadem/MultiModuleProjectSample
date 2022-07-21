@@ -7,7 +7,7 @@ android {
     compileSdk Sdk.compile
 
     defaultConfig {
-        applicationId "com.firatuni.boymetre"
+        applicationId "com.adematici.multimoduleprojectsample"
         minSdk Sdk.min
         targetSdk Sdk.target
         versionCode 1
