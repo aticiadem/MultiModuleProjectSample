@@ -62,9 +62,11 @@ For this, we can click on File -> New -> New Module. These clicks take us to a s
 
 <br>
 Our buildSrc module will not be an Android related process, for this we can build the module via Java or Kotlin library.
-
+<br>
+<br>
 Note: If you get an error like "'buildSrc' cannot be used as a project name as it is a reserved name", go to settings.gradle and delete the "include ':buildSrc'" code here and try to build again.
-
+<br>
+<br>
 After adding the buildSrc module, you can activate the Kotlin DSL by renaming the build.gradle file of the relevant module to build.gradle.kts. Also you can make the content as follows.
 <br>
 <br>
@@ -141,8 +143,32 @@ In this article, we talked about the importance of modularity in our Android app
 ## References:
 
 1. https://unsplash.com/@ryoji__iwata?utm_source=medium&utm_medium=referral
-2. https://cdn-images-1.medium.com/max/1600/0*rS7EQWn0qqhDG8D8
+2. https://unsplash.com/@ryanquintal?utm_source=medium&utm_medium=referral
 3. https://www.droidcon.com/2022/02/15/android-modularization-preps-things-to-know-before-modularizing-your-app/
+
+## License
+
+MIT License
+
+Copyright (c) 2022 Adem ATİCİ
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 
 [0]: https://medium.com/p/2c4135fbd03e/edit
